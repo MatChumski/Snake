@@ -8,8 +8,12 @@ public class Snake : MonoBehaviour
 
     // Definir los límites del tamaño del entorno de juego
     public int xSize, ySize;
+    public AudioSource soundEffect;
+    public AudioClip deathAudio;
+    public AudioClip eatAudio;
 
     public GameObject block;
+
 
     GameObject head;
     string headDirection = "right";
@@ -126,6 +130,11 @@ public class Snake : MonoBehaviour
         {
             part.GetComponent<MeshRenderer>().material = deadBodyMaterial;
         }
+
+        soundEffect.GetComponent<AudioSource>().clip = deathAudio;
+        soundEffect.Play();
+
+        Destroy(head);
     }
 
     private void UpdateScore()
@@ -270,6 +279,8 @@ public class Snake : MonoBehaviour
             InvokeRepeating("MoveHead", gameSpeed, gameSpeed);
         }
 
+        soundEffect.GetComponent<AudioSource>().clip = eatAudio;
+        soundEffect.Play();
 
     }
 

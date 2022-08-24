@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &350541865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8732858533968716097, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
+  m_PrefabInstance: {fileID: 8732858533447702692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 501010544136714898, guid: 4bd5fbdda3b294044a498a6503b08f20, type: 3}
@@ -226,6 +231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 501010544136714899, guid: 4bd5fbdda3b294044a498a6503b08f20, type: 3}
+      propertyPath: UI
+      value: 
+      objectReference: {fileID: 350541865}
     - target: {fileID: 501010544136714899, guid: 4bd5fbdda3b294044a498a6503b08f20, type: 3}
       propertyPath: retry
       value: 
@@ -527,6 +536,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8732858532726417684, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 292.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732858532726417684, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42.239
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732858532726417684, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 146.0235
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732858532726417684, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21.119
+      objectReference: {fileID: 0}
     - target: {fileID: 8732858533968716097, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
       propertyPath: m_Name
       value: GameUI
@@ -618,6 +643,14 @@ PrefabInstance:
     - target: {fileID: 8732858533968716109, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732858534021027369, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 292.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732858534021027369, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 146.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fcb5c27e7370ae43bfe4ccf1511b5e7, type: 3}
